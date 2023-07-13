@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<center>
+    <h1>QR Code</h1>
+
+    <img src="{{ qr_code.code.url }}" alt="QR Code">
+    <p>Scan the QR code to see the user data</p>
+</center>
+
+{% endblock content %}
+
